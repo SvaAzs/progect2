@@ -1,0 +1,129 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*::before,
+*::after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+body {
+	/* Permalink - use to edit and share this gradient. Постоянная ссылка - используйте для редактирования и обмена этим градиентом: https://colorzilla.com/gradient-editor/#e3ff95+0,bbf189+100 */
+	background: linear-gradient(to bottom, rgba(227, 255, 149, 1) 0%, rgba(187, 241, 137, 1) 100%) no-repeat center fixed;
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	padding: 150px 30px 30px 30px;
+}
+
+.block {
+
+	background: url(../img/wallphead.jpg) 0 0/cover no-repeat fixed;
+	height: 300px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px #000;
+}
+
+.text {
+	font-size: 30px;
+	font: cursive;
+
+}
+
+.block2 {
+
+	background: url(../img/bodyleft.jpg) no-repeat;
+	background-size: 500px;
+	background-position: 12px 12px;
+	padding: 15px;
+	height: 900px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px #000;
+	font-size: 24px;
+}
+
+.block2 div {
+	margin: 15px 15px 15px 515px;
+}
+
+.zag {
+	font-size: 40px;
+
+}
