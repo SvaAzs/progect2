@@ -93,6 +93,16 @@ body {
 	padding: 150px 30px 30px 30px;
 }
 
+.zag {
+	font-size: 40px;
+
+}
+
+.textbuttom {
+	font-size: 20px;
+	margin: 5px;
+}
+
 .block {
 
 	background: url(../img/wallphead.jpg) 0 0/cover no-repeat fixed;
@@ -101,29 +111,36 @@ body {
 	box-shadow: 0 0 15px #000;
 }
 
-.text {
-	font-size: 30px;
-	font: cursive;
-
-}
 
 .block2 {
 
-	background: url(../img/bodyleft.jpg) no-repeat;
-	background-size: 500px;
-	background-position: 12px 12px;
+	background: url(../img/block2.jpg)12px 12px/625px 480px no-repeat, url(../img/block3.jpg)12px 504px/625px 480px no-repeat;
 	padding: 15px;
-	height: 900px;
+	height: 1200px;
+	width: 650px;
 	border-radius: 15px;
 	box-shadow: 0 0 15px #000;
-	font-size: 24px;
 }
 
-.block2 div {
-	margin: 15px 15px 15px 515px;
+.block3 {
+	width: 900px;
+	height: 1200px;
+	box-shadow: 0 0 15px #000;
+	position: absolute;
+	top: 550px;
+	left: 700px;
+	border-radius: 15px;
 }
 
-.zag {
-	font-size: 40px;
+.block3 span {
+	font-size: 20px;
+	margin: 15px;
+	font-weight: bolder;
+	;
+}
 
+.block3 p {
+	font-size: 12px;
+	margin: 15px;
+	line-height: 15px;
 }
